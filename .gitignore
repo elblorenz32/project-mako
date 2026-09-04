@@ -1,0 +1,26 @@
+# Python runtime & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Configuration & Sensitive Keys
+.env
+!.env.example
+
+# PyCharm / IDE settings
+.idea/
+
+# Application generated data
+logs/*.log
+logs/*.json
+data/*
+!data/.gitkeep
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
